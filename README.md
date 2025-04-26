@@ -2,7 +2,7 @@
 
 This project builds and trains a simple **neural network** using **TensorFlow/Keras** to classify handwritten digits from the **MNIST dataset**.
 
-## 📋 Project Overview
+## Project Overview
 
 - **Dataset:** MNIST — 70,000 grayscale images of handwritten digits (28x28 pixels).
 - **Steps:**
@@ -12,19 +12,19 @@ This project builds and trains a simple **neural network** using **TensorFlow/Ke
   - Train the model on the training set.
   - Evaluate model performance on the test set.
 
-## 🚀 Technologies Used
+## Technologies Used
 
-- Python 3.x
+- Python
 - Numpy
 - Matplotlib
 - TensorFlow / Keras
 - Scikit-learn
 
-## 📁 Files
+## Files
 
-- **Notebook 1.ipynb**: Main Jupyter Notebook containing the complete workflow from data preprocessing to model evaluation.
+- **Notebook.ipynb**: Main Jupyter Notebook containing the complete workflow from data preprocessing to model evaluation.
 
-## 📦 Installation
+## Installation
 
 1. Clone the repository:
 
@@ -47,7 +47,7 @@ This project builds and trains a simple **neural network** using **TensorFlow/Ke
 
 4. Open `Notebook 1.ipynb` and run all the cells.
 
-## ⚙️ Requirements
+## Requirements
 
 You can create a `requirements.txt` with the following content:
 
@@ -58,12 +58,12 @@ scikit-learn
 tensorflow
 ```
 
-## 📊 Results
+## Results
 
 - The model is able to predict handwritten digits with good accuracy after training for a few epochs.
 - Performance is evaluated using **classification report** (precision, recall, f1-score).
 
-## 📚 Acknowledgments
+## Acknowledgments
 
 - MNIST dataset provided by Yann LeCun and others.
 - TensorFlow and Keras libraries for building and training the neural network.
